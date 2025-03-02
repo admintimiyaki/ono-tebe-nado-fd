@@ -197,6 +197,9 @@
   position: relative;
   justify-content: space-between;
   min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card__text {
@@ -233,13 +236,6 @@
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-}
-
-.card {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-size: 172% auto;
 }
 
 .card__text-item {
